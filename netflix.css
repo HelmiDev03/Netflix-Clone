@@ -1,0 +1,89 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+}.home{
+    
+    background-image: url(picc/back1.jpg) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:700px;
+}
+header{
+    display:flex;
+    justify-content: end;
+    margin-right:50px;
+    padding-top:20px;
+}
+header div{
+    color:white;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top:50px;
+}
+.dis{
+    color:white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding:6px;
+}
+.sig{
+    color:white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding:6px;
+    background-color: red;
+    border-radius: 3px;
+}
+.sig:hover
+{
+    cursor: pointer;
+}
+.welcome{
+    color:white;
+    margin-left:420px;
+    margin-top:170px;
+    margin-right:20px;
+    font-size:30px;
+}
+.l{
+    margin-left:45px;
+}
+.watch{
+    margin-left:45px;
+    margin-top:15px;
+    font-weight: 10px;
+    margin-bottom:30px;
+}
+.welcome h4{
+    font-size: 19px;
+    font-weight: solid;
+    margin-left:-30px;
+
+}
+.reg input{
+    width: 419px;
+    height: 60px;
+    
+}
+.reg{
+    margin-left:-50px;
+    margin-top:15px;
+    display:flex;
+
+}
+.start{
+    margin-left:1.3px;
+    width:200px;
+    background-color: red;
+    text-align: center;
+    padding-top:10px;
+    font-weight: solid;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+.start:hover{
+    cursor: pointer;
+    background-color: rgb(242, 30, 30);
+}
